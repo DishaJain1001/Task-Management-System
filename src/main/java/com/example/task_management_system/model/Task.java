@@ -5,6 +5,8 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import java.time.LocalDate;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Entity
 @Table(name = "tasks")
 public class Task {
@@ -21,6 +23,7 @@ public class Task {
     private String description;
 
     private String status; // TODO, IN_PROGRESS, DONE
+
     private LocalDate dueDate;
 
     public Task() {
