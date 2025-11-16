@@ -86,4 +86,4 @@ Use this token in headers:
 3. Add Email notifications for due tasks
 4. Maven
 
-Swagger UI / Postman for Testing
+**Use Postman for Testing.**
