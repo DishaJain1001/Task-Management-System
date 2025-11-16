@@ -23,7 +23,8 @@ public class TaskController {
 
     @GetMapping
     public List<Task> getAllTasks() {
-        return taskRepository.findAll();
+        // return taskRepository.findAll();
+        return taskRepository.getAllTasks();
     }
 
     @GetMapping("/status/{status}")
