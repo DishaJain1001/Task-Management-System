@@ -7,41 +7,41 @@ This project demonstrates secure authentication, CRUD operations, DTO-based comm
 
 🔐 **Authentication & Authorization**
 
-User Login (username/password)
-JWT Token Generation
-Token-based authentication
-Role-Based Access (ADMIN / USER)
-Secured endpoints using Spring Security
+1. User Login (username/password)
+2. JWT Token Generation
+3. Token-based authentication
+4. Role-Based Access (ADMIN / USER)
+5. Secured endpoints using Spring Security
 
 📝 **Task Management (CRUD)**
 
-Create Task
-Update Task
-Delete Task
-Get Task by ID
-Get All Tasks
+1. Create Task
+2. Update Task
+3. Delete Task
+4. Get Task by ID
+5. Get All Tasks
 
 🔧 **Security**
 
-Spring Security 6 configuration
-Custom JwtAuthenticationFilter
-JwtUtils for token creation & validation
-AuthenticationManager for login process
+1. Spring Security 6 configuration
+2. Custom JwtAuthenticationFilter
+3. JwtUtils for token creation & validation
+4. AuthenticationManager for login process
 
 📦 **Additional Features**
 
-DTO-based request/response
-Global Exception Handling
-Layered Architecture (Controller → Service → Repository)
+1. DTO-based request/response
+2. Global Exception Handling
+3. Layered Architecture (Controller → Service → Repository)
 
 🛠️ **Tech Stack**
 
-Java 17
-Spring Boot 3.4.11
-Spring Security 6
-Spring Data JPA
-MySQL Database
-JWT Authentication
+1. Java 17
+2. Spring Boot 3.4.11
+3. Spring Security 6
+4. Spring Data JPA
+5. MySQL Database
+6. JWT Authentication
 
 ▶️ **How to Run This Project**
 # FROM IDE:
@@ -74,16 +74,16 @@ Use this token in headers:
 
 🧱 **Assumptions**
 
-MySQL database exists before running the project.
-Valid user credentials exist in the database for login.
-ADMIN role is required for deleting tasks.
-JWT token is mandatory for all secured endpoints.
+1. MySQL database exists before running the project.
+2. Valid user credentials exist in the database for login.
+3. ADMIN role is required for deleting tasks.
+4. JWT token is mandatory for all secured endpoints.
 
 🌱 **Future Enhancements**
 
-Add Refresh Token feature
-Add Pagination & Sorting on tasks
-Add Email notifications for due tasks
-Maven
+1. Add Refresh Token feature
+2. Add Pagination & Sorting on tasks
+3. Add Email notifications for due tasks
+4. Maven
 
 Swagger UI / Postman for Testing
